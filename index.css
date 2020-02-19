@@ -20,9 +20,9 @@ li, a, button {
 
 header {
     display: inline-flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     
-    padding: 15px;
+    padding: 5px;
     background-color:#24252A;
     position: fixed;
     width: 100%;
@@ -49,7 +49,9 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    justify-content:space-evenly;
+    padding: 3px;
+    margin-left: 10px;
 }
 
 .nav_links li a {
@@ -108,9 +110,15 @@ button:hover {
     color: yellowgreen; 
 }
 
+.image {
+    display: block;
+    margin-bottom: 10px;
+}
+
 img {
-    
-    
+    margin: 0 auto;
+    width: 75%;
+    height: auto;     
 }
 
 @media screen and (min-width: 480px) {

@@ -14,7 +14,7 @@ body {
 li, a, button {
     font-size: 16px;
     font-weight: 500;
-    color: #edf0f1;
+    color: white;
     text-decoration: none;
 }
 
@@ -35,7 +35,6 @@ header {
 } */
 
 .name {
-    cursor: pointer;
     font-size: 15px;
     font-weight: 500;
     color: #edf0f1;
@@ -64,7 +63,7 @@ header {
 button {
     margin-left: 20px;
     padding: 5px 20px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(1, 104, 129);
     border: none;
     border-radius: 40px;
     cursor: pointer;
@@ -181,7 +180,7 @@ img {
 }
 
 
-@media screen and (max-width: 1525px) {
+@media screen and (max-width: 1600px) {
     .image {
         display: block;
         margin-bottom: 10px;

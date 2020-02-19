@@ -1,24 +1,181 @@
 * {
     box-sizing: border-box;
-    background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    color: white;
-    text-align: center;
-    line-height: 1.5;;
+    font-family: 'Tomorrow', sans-serif;
+    background-color: #2F344A;
+    color: #edf0f1;
+    font-weight: 500;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    background-color: white;
-    color: black;
+li, a, button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 header {
-    padding-top: 10%;
+    display: inline-flex;
+    justify-content: flex-end;
+    
+    padding: 15px;
+    background-color:#24252A;
+    position: fixed;
+    width: 100%;
+}
+
+/* nav {
+    position: fixed;
+    background-color:#24252A;
+    
+} */
+
+.name {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    display: inline-flex;
+    margin-right: 950px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 5px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.hero {
+    padding-top: 5%;
+    font-size: 24px;
+    min-height: 150px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.biography {
+    margin: auto;
+    text-align: center;
+    line-height: 2.0;
+    width: 50%;
+    font-size: 20px;
+}
+
+.appScreenshots {
+    min-height: 300px;
+    flex-direction: row;
+    text-align: center;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.appScreenshots a {
+    transition: all 0.3s ease 0s;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.appScreenshots a:hover {
+    color: yellowgreen; 
+}
+
+img {
+    
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .image {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav_links li {
+        justify-content: space-evenly;
+        padding: 3px;
+        margin-left: 10px;
+    }
+    .name {
+        margin-right: auto;
+    }
+
+    .hero{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1525px) {
+    .image {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav_links li {
+        justify-content: space-evenly;
+        padding: 3px;
+        margin-left: 10px;
+    }
+    .name {
+        margin-right: auto;
+    }
+
+    .hero{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
 }

@@ -62,8 +62,8 @@ header {
     color: #0088a9;
 }
 
-button {
-    margin-left: 20px;
+.button {
+    margin-left: px;
     padding: 5px 20px;
     background-color: rgb(1, 104, 129);
     border: none;
@@ -72,7 +72,7 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
@@ -88,7 +88,6 @@ button:hover {
     margin: auto;
     text-align: center;
     line-height: 2.0;
-    width: ;
     font-size: 20px;
 }
 
@@ -176,10 +175,7 @@ img {
         padding: 3px;
         margin-left: 10px;
     }
-    .name {
-        margin-right: ;
-        
-    }
+    
 
     .hero{
         padding-top: 70px;

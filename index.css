@@ -78,10 +78,12 @@ header {
     min-height: 150px;
     text-align: center;
     text-decoration: underline;
+    text-shadow: 10px 5px 10px #24252A;
 }
 
 .title {
     font-size: 30px;
+    text-shadow: 10px 5px 10px #24252A;
 }
 
 .biography {

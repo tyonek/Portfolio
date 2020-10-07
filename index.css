@@ -133,10 +133,10 @@ header {
 }
 
 .image {
-    max-width: 800px;
-    min-width: 300px;
-    max-height: 400px;
-    min-height: 200px;
+    max-width: 400vh auto;
+    min-width: 150vh auto;
+    max-height: 200vh auto;
+    min-height: 100vh auto;
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #24252A;
@@ -144,7 +144,6 @@ header {
 
 img {
     margin: 0 auto;
-    width: 75%;
     height: auto;     
 }
 
@@ -152,12 +151,12 @@ img {
     .image {
         display: block;
         margin-bottom: 10px;
+        height: auto;
     }
 
     img {
         margin: 0 auto;
-        width: 75%;
-        height: auto;
+        
     }
 
     header {

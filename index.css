@@ -59,7 +59,6 @@ header {
 }
 
 .button {
-    margin-left: px;
     padding: 5px 20px;
     background-color: rgb(1, 104, 129);
     border: none;
@@ -129,6 +128,10 @@ header {
 }
 
 .appScreenshots a:hover {
+    color: yellowgreen; 
+}
+
+.phone__number:hover {
     color: yellowgreen; 
 }
 

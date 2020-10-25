@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Tomorrow', sans-serif;
-    background-color: #2F344A;
+    background: linear-gradient(10deg, #2F344A, rgb(1, 104, 129) ) ;
     color: #edf0f1;
     font-weight: 500;
 }
@@ -55,7 +55,7 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
+    opacity: 70%;
 }
 
 .button {
@@ -145,10 +145,16 @@ header {
     box-shadow: 10px 10px 10px #24252A;
 }
 
+.image:hover {
+    opacity: 80%;
+    transition: ease-in 0.4ms;
+}
+
 img {
     margin: 0 auto;
     height: auto;     
 }
+
 
 @media screen and (min-width: 480px) {
     .image {
